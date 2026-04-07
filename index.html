@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palm Springs Architecture Tour</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1>Palm Springs</h1>
+            <p class="subtitle">Mid-Century Architecture Tour</p>
+        </div>
+        <div class="progress-indicator">
+            <span id="visited-count">0</span> / <span id="total-count">3</span> visited
+        </div>
+    </header>
+
+    <main class="home-list" id="home-list">
+        <!-- Homes will be injected here -->
+    </main>
+
+    <!-- Modal for slideshow + audio -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modal-close">&times;</button>
+            
+            <div class="slideshow-container">
+                <img id="slideshow-image" src="" alt="Home photo">
+                <div class="slideshow-nav">
+                    <button class="nav-btn" id="prev-photo" aria-label="Previous photo">&#10094;</button>
+                    <div class="photo-counter">
+                        <span id="current-photo">1</span> / <span id="total-photos">3</span>
+                    </div>
+                    <button class="nav-btn" id="next-photo" aria-label="Next photo">&#10095;</button>
+                </div>
+            </div>
+
+            <div class="modal-info">
+                <h2 id="modal-title">Home Name</h2>
+                <p class="modal-architect" id="modal-architect">Architect Name, Year</p>
+                <p class="modal-caption" id="modal-caption">Caption text...</p>
+            </div>
+
+            <div class="audio-player">
+                <button class="play-btn" id="play-btn" aria-label="Play audio">
+                    <svg id="play-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M8 5v14l11-7z"/>
+                    </svg>
+                    <svg id="pause-icon" viewBox="0 0 24 24" fill="currentColor" style="display:none">
+                        <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+                    </svg>
+                </button>
+                <div class="progress-container">
+                    <div class="progress-bar" id="progress-bar"></div>
+                    <input type="range" class="progress-slider" id="progress-slider" min="0" max="100" value="0">
+                </div>
+                <span class="time-display" id="time-display">0:00</span>
+            </div>
+
+            <div class="modal-actions">
+                <a href="#" class="nav-link-btn" id="nav-link" target="_blank">
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                    </svg>
+                    Get Directions
+                </a>
+                <button class="next-stop-btn" id="next-stop-btn">
+                    Next Stop
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                        <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

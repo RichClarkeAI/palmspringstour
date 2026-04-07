@@ -1,0 +1,115 @@
+# Priority Image Downloads - Original 3 Homes
+
+Start with these 3 homes since they're the most famous and well-documented:
+
+## 1. Kaufmann Residence (Easiest - Most Photos Available)
+
+### Where to Find:
+- **Wikipedia:** https://en.wikipedia.org/wiki/Kaufmann_Desert_House
+- **Wikimedia Commons:** Search "Kaufmann Desert House"
+- **ArchDaily:** Many professional photos
+- **Slim Aarons:** "Poolside Gossip" photo is iconic
+
+### Image Types to Get:
+1. Exterior with pool (the famous shot)
+2. Slim Aarons "Poolside Gossip" photo
+3. Living room
+4. Kitchen
+5. Master bedroom
+6. Pool/patio area
+7. Entry/eaves detail
+8. Night shots
+9. Historical photos
+10. Recent restoration photos
+
+### Filenames:
+Save as: `kaufmann-1.jpg` through `kaufmann-10.jpg`
+
+---
+
+## 2. Palm Springs Visitor Center (Very Easy - Public Building)
+
+### Where to Find:
+- **Wikipedia:** https://en.wikipedia.org/wiki/Tramway_Gas_Station
+- **Palm Springs Tourism:** Official visitor center photos
+- **Instagram:** #palmspringsvisitorcenter
+- **TripAdvisor:** Tourist photos
+
+### Image Types to Get:
+1. Hyperbolic paraboloid roof exterior
+2. Side view showing roof shape
+3. Interior visitor center
+4. Entrance
+5. Historical gas station photos
+6. Night lighting
+7. Detail of corrugated steel
+8. Context shot with mountains
+9. People for scale
+10. Adjacent Shell station (Cody)
+
+### Filenames:
+Save as: `visitor-center-1.jpg` through `visitor-center-10.jpg`
+
+---
+
+## 3. Swiss Miss Houses (Easy - Instagram Famous)
+
+### Where to Find:
+- **Instagram:** #palmspringsswissmiss #swissmisshouse
+- **Real Estate:** Zillow/Redfin listings (they're popular vacation rentals)
+- **Palm Springs Modern Committee:** Archives
+- **Airbnb/VRBO:** Rental listings have many photos
+
+### Image Types to Get:
+1. A-frame entryway exterior
+2. Street view with multiple houses
+3. Interior with peaked ceiling
+4. Kitchen (mid-century cabinets)
+5. Living room
+6. Pool/patio
+7. Bedroom with A-frame detail
+8. Close-up of Swiss Miss design
+9. Landscaping/palm trees
+10. Evening/twilight shots
+
+### Filenames:
+Save as: `swiss-miss-1.jpg` through `swiss-miss-10.jpg`
+
+---
+
+## Quick Download Tips
+
+### Method 1: Browser
+1. Right-click image → "Save Image As"
+2. Rename immediately to correct filename
+3. Keep track of which number you're on
+
+### Method 2: Bulk Download
+1. Collect URLs in a text file (one per line)
+2. Save as `kaufmann_urls.txt`
+3. Run: `./download_images.sh kaufmann_urls.txt kaufmann`
+4. Script auto-numbers 1-10
+
+### Quality Check:
+- [ ] Image is at least 1200px wide
+- [ ] File size under 500KB
+- [ ] Good lighting, not blurry
+- [ ] Shows the home prominently
+- [ ] No heavy watermarks
+
+### After Downloading:
+Test in the app:
+```bash
+cd ~/clawd/tools/palm-springs-tour
+python3 -m http.server 8000
+# Open http://localhost:8000
+# Click on each home to verify images load
+```
+
+---
+
+**Why These 3 First?**
+1. Most photographed - easy to find images
+2. Most famous - represent the tour well
+3. Already in the app - immediate improvement
+4. Good variety: public building, private home, tract housing

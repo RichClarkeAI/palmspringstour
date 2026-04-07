@@ -1,0 +1,214 @@
+{
+  "homes": [
+    {
+      "id": "visitor-center",
+      "name": "Palm Springs Visitor Center",
+      "architect": "Albert Frey",
+      "year": 1965,
+      "address": "2901 N Palm Canyon Drive, Palm Springs, CA",
+      "audioUrl": "audio/visitor-center.mp3",
+      "photos": [
+        "images/visitor-center-1.jpg",
+        "images/visitor-center-2.jpg",
+        "images/visitor-center-3.jpg",
+        "images/visitor-center-4.jpg",
+        "images/visitor-center-5.jpg",
+        "images/visitor-center-6.jpg",
+        "images/visitor-center-7.jpg",
+        "images/visitor-center-8.jpg",
+        "images/visitor-center-9.jpg",
+        "images/visitor-center-10.jpg"
+      ],
+      "caption": "Originally the Tramway Gas Station - iconic corrugated steel roof spanning 95 feet. The perfect starting point for your architectural tour. Next door: Tramway Shell Station (William Cody, 1964) with its ultra-thin concrete roof."
+    },
+    {
+      "id": "miller",
+      "name": "Grace Lewis Miller Residence",
+      "architect": "Richard Neutra",
+      "year": 1937,
+      "address": "2311 N Indian Canyon Drive, Palm Springs, CA",
+      "audioUrl": "audio/miller.mp3",
+      "photos": [
+        "images/miller-1.jpg",
+        "images/miller-2.jpg",
+        "images/miller-3.jpg",
+        "images/miller-4.jpg",
+        "images/miller-5.jpg",
+        "images/miller-6.jpg",
+        "images/miller-7.jpg",
+        "images/miller-8.jpg",
+        "images/miller-9.jpg",
+        "images/miller-10.jpg"
+      ],
+      "caption": "One of Richard Neutra's earliest Palm Springs commissions. This home showcases Neutra's signature biorealistic approach, integrating architecture with the natural environment. Grace Lewis Miller was a visionary client who championed modern design."
+    },
+    {
+      "id": "kaufmann",
+      "name": "Kaufmann Residence",
+      "architect": "Richard Neutra",
+      "year": 1946,
+      "address": "470 West Vista Chino Road, Palm Springs, CA",
+      "audioUrl": "audio/kaufmann.mp3",
+      "photos": [
+        "images/kaufmann-1.jpg",
+        "images/kaufmann-2.jpg",
+        "images/kaufmann-3.jpg",
+        "images/kaufmann-4.jpg",
+        "images/kaufmann-5.jpg",
+        "images/kaufmann-6.jpg",
+        "images/kaufmann-7.jpg",
+        "images/kaufmann-8.jpg",
+        "images/kaufmann-9.jpg",
+        "images/kaufmann-10.jpg"
+      ],
+      "caption": "THE most famous Palm Springs home internationally. Edgar Kaufmann (same guy who commissioned Fallingwater) chose Neutra over Frank Lloyd Wright for this desert house. Wright himself admitted it was beautiful when he saw it. Site of the famous Slim Aarons 'Poolside Gossip' photograph."
+    },
+    {
+      "id": "swiss-miss",
+      "name": "Swiss Miss Houses",
+      "architect": "Charles DuBois",
+      "year": 1960,
+      "address": "755 W Crescent Drive, Palm Springs, CA",
+      "audioUrl": "audio/swiss-miss.mp3",
+      "photos": [
+        "images/swiss-miss-1.jpg",
+        "images/swiss-miss-2.jpg",
+        "images/swiss-miss-3.jpg",
+        "images/swiss-miss-4.jpg",
+        "images/swiss-miss-5.jpg",
+        "images/swiss-miss-6.jpg",
+        "images/swiss-miss-7.jpg",
+        "images/swiss-miss-8.jpg",
+        "images/swiss-miss-9.jpg",
+        "images/swiss-miss-10.jpg"
+      ],
+      "caption": "A-frame entry 'Swiss Miss' homes - only 15 remain. Very Instagrammable. These whimsical designs feature distinctive peaked entryways that evoke alpine charm in the desert."
+    },
+    {
+      "id": "edris",
+      "name": "Edris Residence",
+      "architect": "E. Stewart Williams",
+      "year": 1954,
+      "address": "1030 W Cielo Drive, Palm Springs, CA",
+      "audioUrl": "audio/edris.mp3",
+      "photos": [
+        "images/edris-1.jpg",
+        "images/edris-2.jpg",
+        "images/edris-3.jpg",
+        "images/edris-4.jpg",
+        "images/edris-5.jpg",
+        "images/edris-6.jpg",
+        "images/edris-7.jpg",
+        "images/edris-8.jpg",
+        "images/edris-9.jpg",
+        "images/edris-10.jpg"
+      ],
+      "caption": "A stunning example of desert modernism by E. Stewart Williams. This home features seamless indoor-outdoor living spaces, horizontal lines that blend with the desert landscape, and innovative climate control solutions for the harsh desert environment."
+    },
+    {
+      "id": "alexander",
+      "name": "Dr. Franz Alexander Residence",
+      "architect": "Walter S. White",
+      "year": 1956,
+      "address": "1011 W Cielo Drive, Palm Springs, CA",
+      "audioUrl": "audio/alexander.mp3",
+      "photos": [
+        "images/alexander-1.jpg",
+        "images/alexander-2.jpg",
+        "images/alexander-3.jpg",
+        "images/alexander-4.jpg",
+        "images/alexander-5.jpg",
+        "images/alexander-6.jpg",
+        "images/alexander-7.jpg",
+        "images/alexander-8.jpg",
+        "images/alexander-9.jpg",
+        "images/alexander-10.jpg"
+      ],
+      "caption": "Designed by innovative architect Walter S. White for Dr. Franz Alexander, a prominent psychoanalyst. Features White's experimental approach to desert architecture with unique ventilation systems and solar shading devices."
+    },
+    {
+      "id": "elvis-honeymoon",
+      "name": "Elvis Honeymoon House",
+      "architect": "Palmer & Krisel",
+      "year": 1960,
+      "address": "1350 Ladera Circle, Palm Springs, CA",
+      "audioUrl": "audio/elvis-honeymoon.mp3",
+      "photos": [
+        "images/elvis-honeymoon-1.jpg",
+        "images/elvis-honeymoon-2.jpg",
+        "images/elvis-honeymoon-3.jpg",
+        "images/elvis-honeymoon-4.jpg",
+        "images/elvis-honeymoon-5.jpg",
+        "images/elvis-honeymoon-6.jpg",
+        "images/elvis-honeymoon-7.jpg",
+        "images/elvis-honeymoon-8.jpg",
+        "images/elvis-honeymoon-9.jpg",
+        "images/elvis-honeymoon-10.jpg"
+      ],
+      "caption": "The famous house where Elvis Presley and Priscilla spent their honeymoon in 1967. This Palmer & Krisel design exemplifies the Alexander tract homes that made mid-century modern architecture accessible to middle-class Americans. Features the iconic butterfly roofline."
+    },
+    {
+      "id": "sinatra",
+      "name": "Frank Sinatra Twin Palms Estate",
+      "architect": "E. Stewart Williams",
+      "year": 1947,
+      "address": "70588 Frank Sinatra Drive, Palm Springs, CA",
+      "audioUrl": "audio/sinatra.mp3",
+      "photos": [
+        "images/sinatra-1.jpg",
+        "images/sinatra-2.jpg",
+        "images/sinatra-3.jpg",
+        "images/sinatra-4.jpg",
+        "images/sinatra-5.jpg",
+        "images/sinatra-6.jpg",
+        "images/sinatra-7.jpg",
+        "images/sinatra-8.jpg",
+        "images/sinatra-9.jpg",
+        "images/sinatra-10.jpg"
+      ],
+      "caption": "Frank Sinatra's legendary desert estate, designed by E. Stewart Williams. The house features a grand piano-shaped pool, vintage audio recording studio, and entertained Hollywood's elite during the Rat Pack era. Sinatra lived here from 1947 to 1957."
+    },
+    {
+      "id": "dinah-shore",
+      "name": "Dinah Shore Residence",
+      "architect": "Donald Wexler",
+      "year": 1964,
+      "address": "432 Hermosa Place, Palm Springs, CA",
+      "audioUrl": "audio/dinah-shore.mp3",
+      "photos": [
+        "images/dinah-shore-1.jpg",
+        "images/dinah-shore-2.jpg",
+        "images/dinah-shore-3.jpg",
+        "images/dinah-shore-4.jpg",
+        "images/dinah-shore-5.jpg",
+        "images/dinah-shore-6.jpg",
+        "images/dinah-shore-7.jpg",
+        "images/dinah-shore-8.jpg",
+        "images/dinah-shore-9.jpg",
+        "images/dinah-shore-10.jpg"
+      ],
+      "caption": "Currently owned by Leonardo DiCaprio, this Donald Wexler masterpiece was originally built for entertainer Dinah Shore. Features Wexler's signature steel-and-glass construction, perfectly suited for the desert climate. A prime example of Hollywood's love affair with Palm Springs modernism."
+    },
+    {
+      "id": "steel-houses",
+      "name": "Steel Houses",
+      "architect": "Donald Wexler & Richard Harrison",
+      "year": 1960,
+      "address": "290 Simms Road, Palm Springs, CA",
+      "audioUrl": "audio/steel-houses.mp3",
+      "photos": [
+        "images/steel-houses-1.jpg",
+        "images/steel-houses-2.jpg",
+        "images/steel-houses-3.jpg",
+        "images/steel-houses-4.jpg",
+        "images/steel-houses-5.jpg",
+        "images/steel-houses-6.jpg",
+        "images/steel-houses-7.jpg",
+        "images/steel-houses-8.jpg",
+        "images/steel-houses-9.jpg",
+        "images/steel-houses-10.jpg"
+      ],
+      "caption": "Seven experimental steel houses designed by Wexler and Harrison. Prefabricated steel panels made these homes affordable and quick to construct. Only a handful were built, but they remain icons of industrial design in residential architecture. Steel proved ideal for the desert: termite-proof, fire-resistant, and cool."
+    }
+  ]
+}
